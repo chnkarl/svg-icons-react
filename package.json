@@ -1,0 +1,21 @@
+{
+  "name": "svg-icons-react",
+  "version": "1.0.20",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "1079644497@qq.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-jsx-runtime": "^1.0.0-alpha.1"
+  }
+}
