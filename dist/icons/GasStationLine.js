@@ -1,5 +1,5 @@
 import { jsx as _jsx } from "react/jsx-runtime";
 import Layout from "../Layout";
-export default function GasStationLine({ color, size, fillRule, }) {
-    return (_jsx(Layout, { icon: "M5 3a2 2 0 0 0-2 2v14a1 1 0 1 0 0 2h12a1 1 0 1 0 0-2v-5h1v2.5a2.5 2.5 0 0 0 5 0v-6.086A2 2 0 0 0 20.414 9l-2.707-2.707a1 1 0 1 0-1.414 1.414l1.1 1.101A1.999 1.999 0 0 0 19 12l.001 4.5a.5.5 0 0 1-1 0V14a2 2 0 0 0-2-2h-1V5a2 2 0 0 0-2-2H5Zm8 8V5H5v6h8Zm-8 2h8v6H5v-6Z", size: size, color: color, fillRule: fillRule }));
+export default function GasStationLine({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M13 3a2 2 0 0 1 1.995 1.85L15 5v7h1a2 2 0 0 1 1.995 1.85L18 14v2.5a.5.5 0 0 0 .992.09L19 16.5V12a2.017 2.017 0 0 1-1.123-.345 2 2 0 0 1-.558-2.738l.075-.109-1.101-1.1a1 1 0 0 1 1.32-1.498l.094.083L20.414 9a2 2 0 0 1 .578 1.238l.008.176V16.5a2.5 2.5 0 0 1-4.995.164L16 16.5V14h-1v5a1 1 0 0 1 .117 1.993L15 21H3a1 1 0 0 1-.117-1.993L3 19V5a2 2 0 0 1 1.85-1.995L5 3h8Zm0 10H5v6h8v-6Zm0-8H5v6h8V5Z", size: size, color: color, gradient: gradient }));
 }

@@ -6,13 +6,56 @@ svg-icons-react
 npm i svg-icons-react
 ```
 
-## Match Mingcute version v2.86（2452 icons）
+![image](./gradient.png)
 
-## Usage
+## Follow mingcute icons, latest version v2.88（2670 icons）
+
+## Basic Usage
 ```
 import { CalendarMonthFill } from 'svg-icons-react'
 
 <CalendarMonthFill size="24" color="#0066ff" />
+```
+## Gradient Usage
+```
+const colorGradient = {
+  from: { x: 0, y: 0 },
+  to: { x: 0, y: 1 },
+  steps: [
+    {
+      offset: 0, // 0 <= offset <= 100
+      color: "#ff0000",
+      opacity: 100
+    },
+    {
+      offset: 25, // 0 <= offset <= 100
+      color: "yellow",
+      opacity: 100
+    },
+    {
+      offset: 50, // 0 <= offset <= 100
+      color: 'purple',
+      opacity: 100
+    },
+    {
+      offset: 80, // 0 <= offset <= 100
+      color: "cyan",
+      opacity: 100
+    }
+  ]
+}
+
+<CalendarMonthFill size="24" gradient={colorGradient} />
+```
+
+## from & to rule
+```
+[0,0]------[1,0]
+  |          |
+  |          |
+  |          |
+[0,1]------[1,1]
+
 ```
 
 ## Steps

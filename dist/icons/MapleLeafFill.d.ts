@@ -1,7 +1,22 @@
+interface typeGradient {
+    from: {
+        x: number;
+        y: number;
+    };
+    to: {
+        x: number;
+        y: number;
+    };
+    steps: {
+        offset: number | string;
+        color: string;
+        opacity: number;
+    }[];
+}
 interface typeIcon {
     color?: string;
     size?: string | number;
-    fillRule?: string;
+    gradient?: typeGradient;
 }
-export default function MapleLeafFill({ color, size, fillRule, }: typeIcon): import("react/jsx-runtime").JSX.Element;
+export default function MapleLeafFill({ color, size, gradient }: typeIcon): import("react/jsx-runtime").JSX.Element;
 export {};

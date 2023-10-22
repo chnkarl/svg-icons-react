@@ -1,5 +1,5 @@
 import { jsx as _jsx } from "react/jsx-runtime";
 import Layout from "../Layout";
-export default function ReceiveMoneyLine({ color, size, fillRule, }) {
-    return (_jsx(Layout, { icon: "M17 2a3 3 0 0 1 2.995 2.824L20 5v12a1 1 0 0 1 .458 1.89l-.107.046-8 3a1 1 0 0 1-.564.041l-.138-.04-8-3a1 1 0 0 1 .23-1.93L4 17V5a3 3 0 0 1 2.824-2.995L7 2h10Zm0 2H7a1 1 0 0 0-1 1v12.682l6 2.25 6-2.25V5a1 1 0 0 0-1-1Zm-5 1a1 1 0 0 1 1 1v1h2a1 1 0 1 1 0 2h-2v1h1a2.5 2.5 0 0 1 0 5h-1v1a1 1 0 1 1-2 0v-1H9a1 1 0 1 1 0-2h2v-1h-1a2.5 2.5 0 0 1 0-5h1V6a1 1 0 0 1 1-1Zm2 7h-1v1h1a.5.5 0 0 0 .09-.992L14 12Zm-3-3h-1a.5.5 0 0 0-.09.992L10 10h1V9Z", size: size, color: color, fillRule: fillRule }));
+export default function ReceiveMoneyLine({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M17 2a3 3 0 0 1 3 3v12a1 1 0 0 1 .351 1.936l-8 3a1 1 0 0 1-.702 0l-8-3A1 1 0 0 1 4 17V5a3 3 0 0 1 3-3h10Zm0 2H7a1 1 0 0 0-.993.883L6 5v12.682l6 2.25 6-2.25V5a1 1 0 0 0-.883-.993L17 4Zm-5 1a1 1 0 0 1 .993.883L13 6v1h2a1 1 0 0 1 .117 1.993L15 9h-5a.5.5 0 0 0-.09.992L10 10h4a2.5 2.5 0 0 1 .164 4.995L14 15h-1v1a1 1 0 0 1-1.993.117L11 16v-1H9a1 1 0 0 1-.117-1.993L9 13h5a.5.5 0 0 0 .09-.992L14 12h-4a2.5 2.5 0 0 1-.164-4.995L10 7h1V6a1 1 0 0 1 1-1Z", size: size, color: color, gradient: gradient }));
 }
