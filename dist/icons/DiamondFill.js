@@ -1,5 +1,5 @@
 import { jsx as _jsx } from "react/jsx-runtime";
 import Layout from "../Layout";
 export default function DiamondFill({ color, size, gradient }) {
-    return (_jsx(Layout, { icon: "M10.822 2.393a1.5 1.5 0 0 1 2.356 0l6.603 8.368a2 2 0 0 1 0 2.478l-6.603 8.368a1.5 1.5 0 0 1-2.356 0L4.22 13.24a2 2 0 0 1 0-2.478l6.603-8.368Z", size: size, color: color, gradient: gradient }));
+    return (_jsx(Layout, { icon: "M10.823 2.393a1.5 1.5 0 0 1 2.355 0l6.603 8.368a2 2 0 0 1 0 2.478l-6.603 8.368a1.5 1.5 0 0 1-2.356 0L4.22 13.24a2 2 0 0 1 0-2.478l6.603-8.368Z", size: size, color: color, gradient: gradient }));
 }
