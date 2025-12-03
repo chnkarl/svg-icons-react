@@ -1,0 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import Layout from "../Layout";
+export default function RewindBackwardSquare10Line({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M8.085 1.689a1 1 0 0 1 .31 1.258L7.867 4H18a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4v-5a1 1 0 1 1 2 0v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2H5.024c-.9 0-1.35-1.088-.714-1.724l2.483-2.483a1 1 0 0 1 1.292-.104m1.387 5.93A1 1 0 0 1 10 8.5v7a1 1 0 1 1-2 0v-5.134a1 1 0 0 1-1.055-1.698l1.5-1a1 1 0 0 1 1.027-.05M11 10.5a3 3 0 1 1 6 0v3a3 3 0 1 1-6 0zm3-1a1 1 0 0 0-1 1v3a1 1 0 1 0 2 0v-3a1 1 0 0 0-1-1", size: size, color: color, gradient: gradient }));
+}

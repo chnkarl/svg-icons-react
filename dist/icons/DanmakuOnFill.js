@@ -1,0 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import Layout from "../Layout";
+export default function DanmakuOnFill({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M18 3a3 3 0 0 1 2.995 2.824L21 6v3.762a3.498 3.498 0 0 0-3.026.795l-.167.156-2.121 2.121a3.5 3.5 0 0 0-5.088 4.803l.141.15.377.376L8 20.5c-.791.593-1.906.075-1.994-.879L6 19.5V18H5a3 3 0 0 1-2.995-2.824L2 15V6a3 3 0 0 1 2.824-2.995L5 3zm1.575 9.48a1 1 0 0 1 1.497 1.32l-.083.095-4.596 4.596a1 1 0 0 1-1.32.083l-.094-.083-2.472-2.472a1 1 0 0 1 1.32-1.497l.094.083 1.765 1.765zM9 12H3a1 1 0 0 0-.117 1.993L3 14h6a1 1 0 0 0 .117-1.993zM7 7H5a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2m12 0h-8a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2", size: size, color: color, gradient: gradient }));
+}

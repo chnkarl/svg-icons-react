@@ -1,0 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import Layout from "../Layout";
+export default function Camera2OffFill({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M2.515 2.515a1 1 0 0 1 1.32-.084l.094.084L6.415 5h.17l1.561-1.56a1.5 1.5 0 0 1 .913-.433L9.207 3h5.586a1.5 1.5 0 0 1 .95.34l.11.1L17.415 5H20a2 2 0 0 1 1.995 1.85L22 7v12c0 .383-.108.74-.294 1.045l-.1.147.381.38a1 1 0 0 1-1.32 1.498l-.094-.083L2.515 3.93a1 1 0 0 1 0-1.414m-.408 3.838 5.02 5.021a5 5 0 0 0 5.999 5.999L16.753 21H4a2 2 0 0 1-2-2V7c0-.226.038-.444.107-.647M12 7.5c-.889 0-1.723.232-2.447.639l1.51 1.51a3 3 0 0 1 3.787 3.787l1.511 1.511A5 5 0 0 0 12 7.5", size: size, color: color, gradient: gradient }));
+}

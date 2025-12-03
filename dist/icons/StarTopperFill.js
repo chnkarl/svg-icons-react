@@ -1,0 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import Layout from "../Layout";
+export default function StarTopperFill({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M12.864 1.497a1 1 0 0 0-1.728 0L9.095 5 5.13 5.86a1 1 0 0 0-.534 1.643l2.702 3.024-.408 4.035a1 1 0 0 0 1.398 1.016l1.042-.459-1.305 5.656A1 1 0 0 0 9 22h6a1 1 0 0 0 .974-1.225L14.67 15.12l1.042.46a1 1 0 0 0 1.398-1.017l-.408-4.035 2.702-3.024a1 1 0 0 0-.534-1.643L14.905 5zm-1.248 12.615.384-.17.384.17L13.743 20h-3.486z", size: size, color: color, gradient: gradient }));
+}

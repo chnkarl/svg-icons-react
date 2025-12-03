@@ -6,9 +6,9 @@ svg-icons-react
 npm i svg-icons-react
 ```
 
-![image](./gradient.png)
+![image](https://github.com/chnkarl/svg-icons-react/blob/main/gradient.png?raw=true)
 
-## Follow mingcute icons, latest version v2.90（2670 icons）
+### This is a react icons library of [mingcute icons](https://www.mingcute.com/), the current version is v2.96, contains 3100 icons.
 
 ## Basic Usage
 ```

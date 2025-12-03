@@ -1,0 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import Layout from "../Layout";
+export default function PrescriptionFill({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M8.379 12.5H7.5V17a1.5 1.5 0 0 1-3 0V5A2.5 2.5 0 0 1 7 2.5h4.5a5 5 0 0 1 1.018 9.896L15 14.88l1.94-1.94a1.5 1.5 0 0 1 2.12 2.122L17.122 17l1.94 1.94a1.5 1.5 0 0 1-2.122 2.12L15 19.122l-1.94 1.94a1.5 1.5 0 0 1-2.12-2.122L12.878 17zm-.879-3v-4h4a2 2 0 1 1 0 4z", size: size, color: color, gradient: gradient }));
+}

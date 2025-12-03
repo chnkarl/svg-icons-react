@@ -1,0 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import Layout from "../Layout";
+export default function BottleFill({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M9 2a2 2 0 0 0-2 2v1c0 .378.105.732.288 1.034L5.6 7.3A4 4 0 0 0 4 10.5V18a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4v-7.5a4 4 0 0 0-1.6-3.2l-1.688-1.266A1.99 1.99 0 0 0 17 5V4a2 2 0 0 0-2-2zm6 3V4H9v1zm3 8H6v-2h12zM6 15h12v2H6z", size: size, color: color, gradient: gradient }));
+}

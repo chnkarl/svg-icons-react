@@ -1,5 +1,5 @@
 import { jsx as _jsx } from "react/jsx-runtime";
 import Layout from "../Layout";
 export default function JeepFill({ color, size, gradient }) {
-    return (_jsx(Layout, { icon: "M13 6a3 3 0 0 1 2.4 1.2l2.145 2.86 2.703.338A2 2 0 0 1 22 12.383V15a3 3 0 0 1-3 3h-.17a3.001 3.001 0 0 1-5.66 0H9.83a3.001 3.001 0 0 1-5.701-.128A3.001 3.001 0 0 1 2 15v-3.764a2 2 0 0 1 .211-.894l1.342-2.684A3 3 0 0 1 6.236 6zM7 16a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2M9 8H6.236a1 1 0 0 0-.894.553L4.618 10H9zm4 0h-2v2h4l-1.2-1.6A1 1 0 0 0 13 8", size: size, color: color, gradient: gradient }));
+    return (_jsx(Layout, { icon: "M12.868 5a3 3 0 0 1 2.572 1.457l2.167 3.611 2.641.33A2 2 0 0 1 22 12.383V15a3.001 3.001 0 0 1-2.128 2.872A3.001 3.001 0 0 1 14.17 18H9.829a3.001 3.001 0 0 1-5.7-.128A3.001 3.001 0 0 1 2 15v-3.807a2 2 0 0 1 .143-.743l1.426-3.564A3 3 0 0 1 6.354 5zM7 16a1 1 0 1 0 0 2 1 1 0 0 0 0-2m10 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-4.132-9H11v3h4.234l-1.509-2.514A1 1 0 0 0 12.868 7M9 7H6.354a1 1 0 0 0-.928.629L4.477 10H9z", size: size, color: color, gradient: gradient }));
 }

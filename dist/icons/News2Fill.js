@@ -1,0 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import Layout from "../Layout";
+export default function News2Fill({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M20 3a1 1 0 0 1 .993.883L21 4v14a3 3 0 0 1-2.824 2.995L18 21H5.5a2.5 2.5 0 0 1-2.495-2.336L3 18.5V11a1 1 0 0 1 .883-.993L4 10h2V4a1 1 0 0 1 .883-.993L7 3zM6 12H5v6.5a.5.5 0 0 0 .992.09L6 18.5zm9 2h-5a1 1 0 1 0 0 2h5a1 1 0 1 0 0-2m2-7h-7a1 1 0 0 0-.993.883L9 8v3a1 1 0 0 0 .883.993L10 12h7a1 1 0 0 0 .993-.883L18 11V8a1 1 0 0 0-.883-.993zm-1 2v1h-5V9z", size: size, color: color, gradient: gradient }));
+}

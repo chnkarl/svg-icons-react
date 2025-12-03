@@ -1,0 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import Layout from "../Layout";
+export default function Mountain2Line({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "m11.3 5.75 3.499 6.062.902-1.562c.577-1 2.02-1 2.598 0l4.33 7.5A1.5 1.5 0 0 1 21.33 20H17v-.002l-.072.002H3.072a1.5 1.5 0 0 1-1.3-2.25l6.929-12c.577-1 2.02-1 2.598 0M10 12.202l-.945.63-.116.066a1 1 0 0 1-.878 0l-.116-.066-.739-.493L3.938 18h12.124l-3.268-5.66-.74.492-.115.066a1 1 0 0 1-.878 0l-.116-.066zM17 12l-1.046 1.812 2.273 3.938.065.124.051.126h2.121zm-7-4.5-1.792 3.104.292.194.945-.63a1 1 0 0 1 1.11 0l.945.63.292-.194z", size: size, color: color, gradient: gradient }));
+}

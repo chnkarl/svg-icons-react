@@ -1,0 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import Layout from "../Layout";
+export default function DisabledLine({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M11 4a1 1 0 1 0 0 2 1 1 0 0 0 0-2M8 5a3 3 0 1 1 4 2.83v1.45l2.162.72H16a1 1 0 1 1 0 2h-2a1 1 0 0 1-.316-.051L12 11.387V13a1 1 0 0 0 1 1h2a3 3 0 0 1 2.4 1.2l2.1 2.8h.5a1 1 0 1 1 0 2h-1a1 1 0 0 1-.8-.4l-2.4-3.2a1 1 0 0 0-.8-.4h-2a3 3 0 0 1-3-3V7.829A3.001 3.001 0 0 1 8 5m.272 6.17a4.5 4.5 0 1 0 5.238 6.375l1.78.91a6.5 6.5 0 1 1-7.563-9.21z", size: size, color: color, gradient: gradient }));
+}

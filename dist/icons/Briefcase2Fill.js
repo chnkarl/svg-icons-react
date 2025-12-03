@@ -1,0 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import Layout from "../Layout";
+export default function Briefcase2Fill({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M9 14a3 3 0 0 0 5.995.176L15 14h7v5a2 2 0 0 1-1.85 1.995L20 21H4a2 2 0 0 1-1.995-1.85L2 19v-5zm3-2a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1m0-9a5.002 5.002 0 0 1 4.9 4H20a2 2 0 0 1 2 2v3h-7.17a3.001 3.001 0 0 0-5.66 0H2V9a2 2 0 0 1 2-2h3.1A5.002 5.002 0 0 1 12 3m0 2a3 3 0 0 0-2.762 1.828L9.17 7h5.658A3.001 3.001 0 0 0 12 5", size: size, color: color, gradient: gradient }));
+}

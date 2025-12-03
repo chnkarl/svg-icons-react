@@ -1,0 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import Layout from "../Layout";
+export default function Disabled2Fill({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M15 2a3 3 0 0 1 .74 5.908L13.293 13.5H15.6a3.5 3.5 0 0 1 3.29 2.304l1.316 3.622.466.232a1.5 1.5 0 1 1-1.342 2.684l-1-.5a1.5 1.5 0 0 1-.739-.83L16.07 16.83a.5.5 0 0 0-.47-.329h-2.306c-2.163 0-3.615-2.22-2.748-4.202l.843-1.927L10 9.677l-3.33 1.665a1.5 1.5 0 1 1-1.34-2.684l3.552-1.776a2.5 2.5 0 0 1 2.236 0l1.474.737.239-.546A3 3 0 0 1 15 2M4.182 11.761l1.636 1.152a4.5 4.5 0 1 0 7.59 4.82l.102-.188 1.78.91a6.5 6.5 0 1 1-11.263-6.464z", size: size, color: color, gradient: gradient }));
+}

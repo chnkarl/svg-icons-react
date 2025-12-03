@@ -1,0 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import Layout from "../Layout";
+export default function ElectricCookerLine({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M9 5a3 3 0 1 1 6 0h1a4 4 0 0 1 4 4h1a1 1 0 1 1 0 2h-1v8a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3v-8H3a1 1 0 1 1 0-2h1a4 4 0 0 1 4-4zm2 0h2a1 1 0 1 0-2 0M8 7a2 2 0 0 0-2 2h12a2 2 0 0 0-2-2zm10 4H6v8a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1zm-6 3a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-3 1a3 3 0 1 1 6 0 3 3 0 0 1-6 0", size: size, color: color, gradient: gradient }));
+}

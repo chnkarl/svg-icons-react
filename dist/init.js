@@ -8,14 +8,14 @@ export const Init = {
         steps: [
             {
                 offset: 0,
-                color: '#000000',
+                color: "#ff0000",
                 opacity: 100,
             },
             {
-                offset: 100,
-                color: '#000000',
+                offset: 50,
+                color: "cyan",
                 opacity: 100,
-            }
-        ]
+            },
+        ],
     }
 };

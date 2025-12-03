@@ -1,0 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import Layout from "../Layout";
+export default function VideoCamera2Fill({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M11.762 7.445A1 1 0 0 0 10.93 7H6a1 1 0 1 1 0-2h4.93a3 3 0 0 1 2.496 1.336L14.536 8H15a3 3 0 0 1 3 3v.21l1.713-1.056A1.5 1.5 0 0 1 22 11.43v5.138a1.5 1.5 0 0 1-2.287 1.277L18 16.79V17a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-6a3 3 0 0 1 3-3h7.132z", size: size, color: color, gradient: gradient }));
+}

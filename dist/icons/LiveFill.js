@@ -1,0 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import Layout from "../Layout";
+export default function LiveFill({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M16.95 4a1 1 0 0 0-1.414-1.414l-3.89 3.889a.5.5 0 0 1-.707 0L8.464 4A1 1 0 1 0 7.05 5.414L8.636 7H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-5.05zm-7.487 7.92a1.045 1.045 0 0 1 1.458-.842c.355.154 1.028.467 1.868.952.84.485 1.449.912 1.76 1.142.567.419.568 1.263 0 1.683-.31.229-.914.652-1.76 1.14-.847.49-1.515.8-1.868.954a1.045 1.045 0 0 1-1.458-.842 19.106 19.106 0 0 1-.109-2.094c0-.966.066-1.708.11-2.092", size: size, color: color, gradient: gradient }));
+}

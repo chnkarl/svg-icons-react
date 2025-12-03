@@ -1,0 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import Layout from "../Layout";
+export default function TextAreaFill({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M7 3a1 1 0 0 1 1 1h8a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1v8a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-3a1 1 0 0 1-1-1H8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1V8a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm12 15h-1v1h1zM6 18H5v1h1zm6-11a1.71 1.71 0 0 0-1.556 1.002l-.054.133-2.332 6.529a1 1 0 0 0 1.838.78l.046-.108.477-1.336h3.162l.477 1.336a1 1 0 0 0 1.917-.56l-.033-.112-2.332-6.53A1.71 1.71 0 0 0 12 7m0 2.573L12.867 12h-1.734zM6 5H5v1h1zm13 0h-1v1h1z", size: size, color: color, gradient: gradient }));
+}

@@ -1,0 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import Layout from "../Layout";
+export default function ChefHatLine({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M5 13.744a4.501 4.501 0 0 1 2.852-8.537A4.994 4.994 0 0 1 12 3c1.728 0 3.25.877 4.148 2.207A4.5 4.5 0 0 1 19 13.744V18a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3zM9.22 6.87a3.001 3.001 0 0 1 5.56 0 1 1 0 0 0 1.44.481 2.5 2.5 0 1 1 1.639 4.623 1 1 0 0 0-.859.99V16H7v-3.035a1 1 0 0 0-.858-.99A2.5 2.5 0 1 1 7.78 7.352a1 1 0 0 0 1.44-.481M17 18a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1z", size: size, color: color, gradient: gradient }));
+}

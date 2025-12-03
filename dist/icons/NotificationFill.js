@@ -1,5 +1,5 @@
 import { jsx as _jsx } from "react/jsx-runtime";
 import Layout from "../Layout";
 export default function NotificationFill({ color, size, gradient }) {
-    return (_jsx(Layout, { icon: "M15 19a2 2 0 0 1-1.85 1.995L13 21h-2a2 2 0 0 1-1.995-1.85L9 19zM12 2a7 7 0 0 1 6.996 6.76L19 9v3.764l1.822 3.644a1.1 1.1 0 0 1-.869 1.586l-.115.006H4.162a1.1 1.1 0 0 1-1.03-1.487l.046-.105L5 12.764V9a7 7 0 0 1 7-7", size: size, color: color, gradient: gradient }));
+    return (_jsx(Layout, { icon: "M12 2a7 7 0 0 0-7 7v3.528a1 1 0 0 1-.105.447l-1.717 3.433A1.1 1.1 0 0 0 4.162 18h15.676a1.1 1.1 0 0 0 .984-1.592l-1.716-3.433a1 1 0 0 1-.106-.447V9a7 7 0 0 0-7-7m0 19a3.001 3.001 0 0 1-2.83-2h5.66A3.001 3.001 0 0 1 12 21", size: size, color: color, gradient: gradient }));
 }

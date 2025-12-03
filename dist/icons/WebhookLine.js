@@ -1,0 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import Layout from "../Layout";
+export default function WebhookLine({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M12 3a4 4 0 0 1 3.153 6.461l2.085 3.612A4 4 0 1 1 14.535 19h-5.07a4 4 0 1 1-2.703-5.927L8.847 9.46A4 4 0 0 1 12 3M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4m12 0a2 2 0 1 0 .001 4A2 2 0 0 0 18 15m-4.448-4.312A3.989 3.989 0 0 1 12 11c-.55 0-1.074-.111-1.552-.312l-1.876 3.249A3.991 3.991 0 0 1 10 17h4c0-1.23.556-2.33 1.428-3.063zM12 5a2 2 0 1 0 0 4 2 2 0 0 0 0-4", size: size, color: color, gradient: gradient }));
+}

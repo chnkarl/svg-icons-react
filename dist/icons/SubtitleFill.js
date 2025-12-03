@@ -1,0 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import Layout from "../Layout";
+export default function SubtitleFill({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M20 4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zM8.5 8a3 3 0 0 0-2.995 2.824L5.5 11v2a3 3 0 0 0 5.906.75 1 1 0 0 0-1.902-.61l-.035.111a1 1 0 0 1-1.962-.134L7.5 13v-2a1 1 0 0 1 1.935-.356l.034.105a1 1 0 1 0 1.937-.498A3 3 0 0 0 8.5 8.001m7 0a3 3 0 0 0-3 3v2a3 3 0 0 0 5.906.75 1 1 0 0 0-1.902-.61l-.035.111a1 1 0 0 1-1.969-.25v-2a1 1 0 0 1 1.935-.357l.034.105a1 1 0 0 0 1.937-.498 3 3 0 0 0-2.906-2.25", size: size, color: color, gradient: gradient }));
+}

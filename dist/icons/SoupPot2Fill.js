@@ -1,0 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import Layout from "../Layout";
+export default function SoupPot2Fill({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M10 3a1 1 0 0 0 0 2h1v1h-1c-.238 0-.476.025-.713.055-.415.053-.99.158-1.65.366A9.481 9.481 0 0 0 4.506 8.1 1.999 1.999 0 0 0 4.413 8l-.707-.707a1 1 0 0 0-1.414 1.414L3 9.414V16a5 5 0 0 0 5 5h8a5 5 0 0 0 5-5V9.414l.707-.707a1 1 0 0 0-1.414-1.414L19.586 8a2.01 2.01 0 0 0-.092.099 9.48 9.48 0 0 0-3.13-1.678 9.535 9.535 0 0 0-1.651-.366A7.737 7.737 0 0 0 14 6h-1V5h1a1 1 0 1 0 0-2z", size: size, color: color, gradient: gradient }));
+}

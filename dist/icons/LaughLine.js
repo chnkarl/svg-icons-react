@@ -1,0 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import Layout from "../Layout";
+export default function LaughLine({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M12 4a8 8 0 1 0 0 16 8 8 0 0 0 0-16M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12m5-4a1 1 0 0 1 1-1h2a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1m6 0a1 1 0 0 1 1-1h2a1 1 0 1 1 0 2h-2a1 1 0 0 1-1-1m-4 4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3a3 3 0 1 1-6 0zm2 1v2a1 1 0 1 0 2 0v-2z", size: size, color: color, gradient: gradient }));
+}

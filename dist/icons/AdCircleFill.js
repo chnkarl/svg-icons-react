@@ -1,0 +1,5 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import Layout from "../Layout";
+export default function AdCircleFill({ color, size, gradient }) {
+    return (_jsx(Layout, { icon: "M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2M9.22 8h-.44a2 2 0 0 0-1.94 1.515l-1.31 5.243a1 1 0 1 0 1.94.485L7.78 14h2.44l.31 1.242a1 1 0 1 0 1.94-.485l-1.31-5.242A2 2 0 0 0 9.22 8M16 8h-2a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2a3 3 0 0 0 3-3v-2a3 3 0 0 0-3-3m0 2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-1v-4zm-6.78 0 .5 2H8.28l.5-2z", size: size, color: color, gradient: gradient }));
+}
